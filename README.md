@@ -68,6 +68,29 @@ activate .
 using IJulia
 IJulia.installkernel("MyLinearAlgerbra", "--project=./MyLinearAlgerbra")
 ```
+
+The kernals on MacOS are stored under /Users/<user name>/Library/Jupyter/kernels. When you run installkernal command it creates a directy under
+kernels directory. For example:
+
+```
+├── kernels
+│   └── mylinearalgerbra-1.9
+│       ├── kernel.json
+│       ├── logo-32x32.png
+│       ├── logo-64x64.png
+│       └── logo-svg.svg
+```
+
+To remove kernel just remove the directory aka mylinearalgerbra-1.9.  If you can't find the kernel directory fire up python env 
+with juypter installed and run: /Users/<user name>/.julia/conda/3/aarch64/bin/jupyter --runtime-dir. Note you can also use the 
+following juypter commands to manage your kernels:
+
+```
+jupyter kernelspec list
+upyter kernelspec remove <kernel-name>
+```
+
+
 ### Launch juypterlab in current directory.
 
 Start juypterlab based on the current Tom's Obvious Minimal Language (TOML) project file.  If you cd to ./MyLinearAlgerbra 
@@ -89,6 +112,7 @@ jupyterlab(dir=pwd(), detached=true)
 ```
 
 ### Select Kernerl and notebook to run.
+
 
 ## Resource Links
 * Juliaup Muliplexer for julia - https://github.com/JuliaLang/juliaup
