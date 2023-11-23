@@ -114,6 +114,13 @@ jupyterlab(dir=pwd(), detached=true)
 ### Select Kernerl and notebook to run.
 
 
+### Diff Notebooks using git diff
+
+```
+pip install --upgrade pip
+nbdime config-git --enable --global
+```
+
 ## Resource Links
 * Juliaup Muliplexer for julia - https://github.com/JuliaLang/juliaup
 * IJulia Julia-Language backend for Julia -  https://github.com/JuliaLang/IJulia.jl
@@ -122,5 +129,6 @@ jupyterlab(dir=pwd(), detached=true)
 * Tom's Obvious Minimal Language - https://toml.io/en/
 * Juypter Markdown and LaTex - https://saturncloud.io/blog/how-to-use-latex-in-jupyter-notebook/
 * LaTex Wiki - https://en.wikibooks.org/wiki/LaTeX
+* Notebook Diff Instrucitons - https://nbdime.readthedocs.io/en/latest/
 
 
