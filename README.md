@@ -133,6 +133,6 @@ Doing git diff will give you something like this:
 * Tom's Obvious Minimal Language - https://toml.io/en/
 * Juypter Markdown and LaTex - https://saturncloud.io/blog/how-to-use-latex-in-jupyter-notebook/
 * LaTex Wiki - https://en.wikibooks.org/wiki/LaTeX
-* Notebook Diff Instrucitons - https://nbdime.readthedocs.io/en/latest/
+* Notebook Diff Instructions - https://nbdime.readthedocs.io/en/latest/
 
 
