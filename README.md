@@ -66,7 +66,7 @@ To create juypterlab kernel for my Linear Algebra notes:
 activate .
 <delete>
 using IJulia
-IJulia.installkernel("MyLinearAlgerbra", "--project=./MyLinearAlgerbra")
+IJulia.installkernel("MyLinearAlgerbra", "--project=.")
 ```
 
 The kernals on MacOS are stored under /Users/<user name>/Library/Jupyter/kernels. When you run installkernal command it creates a directy under
@@ -120,5 +120,7 @@ jupyterlab(dir=pwd(), detached=true)
 * I can't work effecently without vi mode so I use jypterlab-vim: https://github.com/jupyterlab-contrib/jupyterlab-vim
 * I perfer having a darkmode so I use: https://github.com/jupyterlab/jupyterlab_pygments
 * Tom's Obvious Minimal Language - https://toml.io/en/
+* Juypter Markdown and LaTex - https://saturncloud.io/blog/how-to-use-latex-in-jupyter-notebook/
+* LaTex Wiki - https://en.wikibooks.org/wiki/LaTeX
 
 
