@@ -11,33 +11,33 @@ how to apply linear algebra. The resource links for putting this site together i
 ## Install Juliaup and utilize it
 I use Juliaup to mange my different versions Julia. Below is how install it on the Mac:
 
-```
+```zsh
 brew install juliaup
 juliaup list
 juliaup add 1.9.4
 juliaup status
 ```
 To utilize version 1.9.4 run:
-```
+```zsh
 julia +1.9.4 
 ```
 or set the default version to 1.9.4:
-```
+```zsh
 julia default 1.9.4
 julia
 ```
 to update your installed version run:
-```
+```zsh
 juliaup update
 ```
 
 ## Install and run Juypterlab.
 
 ### Setup a project from juila project file under this github project.
-```
+```zsh
 cd ./MyLinearAlgerbra/
 ```
-```
+```julia
 ]
 activate .
 instantiate
