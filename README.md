@@ -50,7 +50,7 @@ update
 If Juypterlab has not been installed for you system you will be prompted to install it
 using miniconda. You will want to do that. Mini Python will installed in a sub directory under ~/.julia/conda
 Note it will take a while to Jupyterlab.
-```
+```julia
 ]
 activate .
 add IJulia
@@ -61,7 +61,7 @@ install JupyterLab via Conda, y/n? [y]: y
 ### Define Kernel to use your project file.
 
 To create juypterlab kernel for my Linear Algebra notes:
-```
+```julia
 ]
 activate .
 <delete>
@@ -72,7 +72,7 @@ IJulia.installkernel("MyLinearAlgerbra", "--project=.")
 The kernals on MacOS are stored under /Users/<user name>/Library/Jupyter/kernels. When you run installkernal command it creates a directy under
 kernels directory. For example:
 
-```
+```zsh
 ├── kernels
 │   └── mylinearalgerbra-1.9
 │       ├── kernel.json
@@ -85,9 +85,9 @@ To remove kernel just remove the directory aka mylinearalgerbra-1.9.  If you can
 with juypter installed and run: /Users/<user name>/.julia/conda/3/aarch64/bin/jupyter --runtime-dir. Note you can also use the 
 following juypter commands to manage your kernels:
 
-```
+```zsh
 jupyter kernelspec list
-upyter kernelspec remove <kernel-name>
+jupyter kernelspec remove <kernel-name>
 ```
 
 
@@ -97,29 +97,33 @@ Start juypterlab based on the current Tom's Obvious Minimal Language (TOML) proj
 you will use the Project.toml located there.
 Note the first time you run jupyterlab from julia it will prompt you to install it using Conda it will take a while.
 Below is example of activating my MyLinearAlgerbra project.
-```
+```zsh
 cd ./MyLinearAlgerbra
 ```
-```
+```julia
 ]<enter>
 activate .
 <delete>
 ```
 Below is how to start JupyterLab so it points to the notebooks located under ./MyLinearAlgerbra
-```
+```julia
 using IJulia
 jupyterlab(dir=pwd(), detached=true)
 ```
 
 ### Select Kernerl and notebook to run.
+![image](https://github.com/baudekin/MyPubNotebooks/assets/585597/e56212ee-bea1-4051-a716-5b691f515a01)
 
 
 ### Diff Notebooks using git diff
 
-```
+```julia
 pip install --upgrade pip
 nbdime config-git --enable --global
 ```
+Doing git diff will give you something like this:
+![image](https://github.com/baudekin/MyPubNotebooks/assets/585597/3023cfdd-4017-47e8-b2d1-024cf978eea8)
+
 
 ## Resource Links
 * Juliaup Muliplexer for julia - https://github.com/JuliaLang/juliaup
