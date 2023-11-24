@@ -3,7 +3,7 @@
 # MyPubNotebooks
 
 This is the site of my public notebooks for Julia usage. I was trained in applied mathematics along time go but used 
-the training mainly as software developer not mathematician. The purpose of this site to provide examples of using Julia 
+that training mainly as software developer not mathematician. The purpose of this site to provide examples of using Julia 
 to preform statistical analysis based on the Jayne's statistical interpretation. Note there will be notebooks on using 
 using Julia with linear algebra because I'm rusty and to do almost anything math related on computer you need to understand 
 how to apply linear algebra. The resource links for putting this site together is at bottom of the page. 
