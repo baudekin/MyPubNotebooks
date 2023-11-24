@@ -126,13 +126,21 @@ Doing git diff will give you something like this:
 
 
 ## Resource Links
+* Julia - https://github.com/JuliaLang
 * Juliaup Muliplexer for julia - https://github.com/JuliaLang/juliaup
 * IJulia Julia-Language backend for Julia -  https://github.com/JuliaLang/IJulia.jl
+* Linear Algebra Julia Package - https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/
 * I can't work effecently without vi mode so I use jypterlab-vim: https://github.com/jupyterlab-contrib/jupyterlab-vim
 * I perfer having a darkmode so I use: https://github.com/jupyterlab/jupyterlab_pygments
 * Tom's Obvious Minimal Language - https://toml.io/en/
 * Juypter Markdown and LaTex - https://saturncloud.io/blog/how-to-use-latex-in-jupyter-notebook/
 * LaTex Wiki - https://en.wikibooks.org/wiki/LaTeX
 * Notebook Diff Instructions - https://nbdime.readthedocs.io/en/latest/
+* Bayesain Links:
+** Turing Julia Package - https://juliapackages.com/u/turinglang and https://github.com/TuringLang
+** [Statistical Rethinking A Bayesian Course with Examples in R and STAN By Richard McElreath](https://tertulia.com/book/statistical-rethinking-a-bayesian-course-with-examples-in-r-and-stan-richard-mcelreath/9780367139919)
+** [Probability Theory: The Logic of Science By  E. T. Jaynes ](https://tertulia.com/book/probability-theory-the-logic-of-science-e-t-jaynes/9780521592710)
+** [Bayesian Inference Videos](https://study.sagepub.com/lambert/student-resources/probability-the-nuts-and-bolts-of-bayesian-inference/author-videos)
+** [How to use Julia to perform Bayesian Analysis](https://storopoli.io/Bayesian-Julia/)
 
 
