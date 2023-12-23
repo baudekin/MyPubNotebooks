@@ -131,6 +131,7 @@ Doing git diff will give you something like this:
   * Juliaup Muliplexer for julia - https://github.com/JuliaLang/juliaup
   * IJulia Julia-Language backend for Julia -  https://github.com/JuliaLang/IJulia.jl
   * Linear Algebra Julia Package - https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/
+  * Julia direct BLAS access - https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/#BLAS-functions
   * Turing Julia Package - https://juliapackages.com/u/turinglang and https://github.com/TuringLang
   * Project file syntaz: Tom's Obvious Minimal Language - https://toml.io/en/
 * Juypter Setup and Usage
